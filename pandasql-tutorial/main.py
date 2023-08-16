@@ -14,7 +14,7 @@ tips_df = sns.load_dataset("tips")
 query_1 = """
 SELECT *
 FROM tips_df
-LIMIT 5;
+LIMIT 10;
 """
 result_1 = run_query(query_1)
 print(result_1)
